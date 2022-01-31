@@ -229,6 +229,7 @@ public class Gui extends JFrame {
 
         this.setSize(800,600);
         this.setTitle("Mathetrainer");
+        this.getRootPane().setDefaultButton(submit);
         this.setDefaultCloseOperation(EXIT_ON_CLOSE);
         this.setLayout(null);
         this.setVisible(true);
